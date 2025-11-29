@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Gamificación y Competencias Socioemocionales en Entornos Virtuales</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Estilos simples para que ya se vea como web -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f6fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #5b3cf5, #ff9f1c);
+      color: white;
+      padding: 3rem 1.5rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 0.5rem 0;
+      font-size: 2rem;
+    }
+
+    header p {
+      margin: 0.25rem 0;
+    }
+
+    .btn-primario {
+      display: inline-block;
+      margin-top: 1.5rem;
+      padding: 0.8rem 1.6rem;
+      border-radius: 999px;
+      background: #ffffff;
+      color: #5b3cf5;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav {
+      background: white;
+      border-bottom: 1px solid #ddd;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0.5rem 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-size: 0.9rem;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+    }
+
+    section h2 {
+      margin-top: 0;
+      color: #5b3cf5;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 0.2rem 0.6rem;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      background: #eee;
+      margin-right: 0.3rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .unidad {
+      border-left: 4px solid #5b3cf5;
+      padding-left: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .unidad h3 {
+      margin-top: 0;
+    }
+
+    .lista-compuesta {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      background: #fafafa;
+      border-radius: 10px;
+      padding: 1rem;
+      border: 1px solid #eee;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.85rem;
+      color: #666;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- PORTADA -->
+  <header id="inicio">
+    <h1>Gamificación y Competencias Socioemocionales en Entornos Virtuales</h1>
+    <p>Curso para docentes y docentes en formación</p>
+    <p>Universidad Santo Tomás – Maestría en Ambientes Bilingües de Aprendizaje</p>
+    <a href="#unidad1" class="btn-primario">Comienza el Nivel 1</a>
+  </header>
+
+  <!-- MENÚ SUPERIOR -->
+  <nav>
+    <ul>
+      <li><a href="#sobre-curso">Sobre el curso</a></li>
+      <li><a href="#que-aprenderas">¿Qué aprenderás?</a></li>
+      <li><a href="#metodologia">Metodología</a></li>
+      <li><a href="#unidades">Unidades</a></li>
+      <li><a href="#evaluacion">Evaluación</a></li>
+      <li><a href="#momentos">Sesiones y tiempos</a></li>
+      <li><a href="#participacion">Participación y acompañamiento</a></li>
+    </ul>
+  </nav>
+
+  <!-- SECCIÓN: SOBRE EL CURSO -->
+  <section id="sobre-curso">
+    <h2>Bienvenida y descripción general</h2>
+    <p>
+      ¡Bienvenidos al curso <strong>“Gamificación y Competencias Socioemocionales en Entornos Virtuales”</strong>!
+      En este espacio exploraremos cómo los docentes del siglo XXI pueden transformar sus prácticas
+      mediante estrategias gamificadas que integran el componente socioemocional, el uso creativo de
+      tecnologías educativas y los principios del Diseño Universal para el Aprendizaje (DUA).
+    </p>
+    <p>
+      El curso está dirigido a <strong>docentes y docentes en formación</strong> interesados en crear experiencias
+      de aprendizaje más inclusivas, activas y centradas en los estudiantes, especialmente en <strong>Entornos
+      Virtuales de Aprendizaje (EVA)</strong>.
+    </p>
+    <p>
+      A lo largo de <strong>3 unidades</strong>, combinaremos fundamentos teóricos, habilidades
+      socioemocionales y diseño instruccional gamificado, hasta llegar a la implementación de una
+      estrategia gamificada con propósito SEL en un entorno virtual.
+    </p>
+  </section>
+
+  <!-- SECCIÓN: QUÉ APRENDERÁS -->
+  <section id="que-aprenderas">
+    <h2>¿Qué aprenderás en este curso?</h2>
+
+    <h3>Competencia general</h3>
+    <p>
+      Plantear estrategias didácticas innovadoras de manera interdisciplinar, integrando gamificación,
+      habilidades socioemocionales, tecnologías educativas y diseño instruccional para transformar
+      prácticas educativas según las necesidades del entorno.
+    </p>
+
+    <h3>Resultados de aprendizaje</h3>
+    <ul>
+      <li>Diseñar estrategias didácticas gamificadas fundamentadas en las competencias del siglo XXI y los principios del DUA.</li>
+      <li>Identificar y explicar conceptos clave de gamificación, motivación y metodologías activas.</li>
+      <li>Reconocer y analizar habilidades socioemocionales aplicadas a entornos virtuales.</li>
+      <li>Elaborar objetos de aprendizaje gamificados siguiendo el modelo ADDIE.</li>
+      <li>Seleccionar y utilizar plataformas digitales (ClassDojo, Genially, Kahoot, Educaplay) coherentes con propósitos pedagógicos.</li>
+    </ul>
+  </section>
+
+  <!-- SECCIÓN: METODOLOGÍA -->
+  <section id="metodologia">
+    <h2>Metodología de trabajo</h2>
+
+    <div class="lista-compuesta">
+      <div class="card">
+        <h3>Aprendizaje activo</h3>
+        <p>
+          Actividades prácticas, análisis de casos, creación de prototipos, objetos digitales y recursos gamificados.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Diseño Universal para el Aprendizaje (DUA)</h3>
+        <p>
+          Múltiples formas de representación (videos, textos, infografías), expresión (foros, mapas mentales, Genially)
+          y participación (trabajo individual y colaborativo).
+        </p>
+      </div>
+      <div class="card">
+        <h3>Gamificación</h3>
+        <p>
+          Uso de retos, puntos, niveles, insignias, narrativa y retroalimentación para favorecer la motivación
+          y el compromiso del estudiante.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Trabajo colaborativo</h3>
+        <p>
+          Foros, coevaluación, socialización de avances y construcción conjunta de estrategias digitales.
+        </p>
+      </div>
+    </div>
+
+    <p style="margin-top:1rem;">
+      Todo el curso se desarrolla en un <strong>Entorno Virtual de Aprendizaje (EVA)</strong> organizado
+      por unidades, con recursos, instrucciones claras y espacios de interacción permanentes.
+    </p>
+  </section>
+
+  <!-- SECCIÓN: UNIDADES -->
+  <section id="unidades">
+    <h2>Organización del curso por unidades</h2>
+
+    <!-- UNIDAD 1 -->
+    <div class="unidad" id="unidad1">
+      <h3>Unidad 1. Fundamentos de Gamificación y Educación del Siglo XXI</h3>
+      <p>
+        En esta unidad explorarás los fundamentos teóricos y pedagógicos de la gamificación como
+        estrategia innovadora en educación, así como el papel de las TIC, TAC y TEP en la construcción
+        de entornos virtuales de aprendizaje motivadores.
+      </p>
+
+      <p><strong>Aprendizajes clave</strong></p>
+      <ul>
+        <li>Comprender los conceptos clave de gamificación y su relación con teorías del aprendizaje.</li>
+        <li>Analizar la motivación intrínseca y extrínseca en procesos gamificados.</li>
+        <li>Reconocer elementos esenciales de diseño para experiencias activas.</li>
+      </ul>
+
+      <p><strong>Ejemplos de actividades</strong></p>
+      <ul>
+        <li>Mapa mental digital sobre EVA y gamificación.</li>
+        <li>Línea del tiempo interactiva con conceptos fundamentales del curso.</li>
+      </ul>
+
+      <p>
+        <span class="tag">Nivel 1</span>
+        <span class="tag">Gamificación básica</span>
+        <span class="tag">Motivación</span>
+      </p>
+    </div>
+
+    <!-- UNIDAD 2 -->
+    <div class="unidad" id="unidad2">
+      <h3>Unidad 2. Habilidades Socioemocionales en Entornos Virtuales (SEL)</h3>
+      <p>
+        En esta unidad se profundiza en el modelo SEL (CASEL) y en la importancia de las habilidades
+        socioemocionales para acompañar el aprendizaje en línea mediante actividades gamificadas con
+        narrativa, feedback positivo y participación activa.
+      </p>
+
+      <p><strong>Aprendizajes clave</strong></p>
+      <ul>
+        <li>Comprender el modelo SEL y su aplicación en EVA.</li>
+        <li>Analizar el rol del docente mediador desde una perspectiva sociocultural.</li>
+        <li>Identificar estrategias digitales para la autorregulación emocional.</li>
+        <li>Diseñar una mini-estrategia SEL gamificada.</li>
+      </ul>
+
+      <p><strong>Ejemplos de actividades</strong></p>
+      <ul>
+        <li>Role-play docente–estudiante ante un caso de frustración en el EVA.</li>
+        <li>Diseño de una microactividad SEL gamificada en Genially o Canva.</li>
+      </ul>
+
+      <p>
+        <span class="tag">Nivel 2</span>
+        <span class="tag">SEL</span>
+        <span class="tag">Mediación docente</span>
+      </p>
+    </div>
+
+    <!-- UNIDAD 3 -->
+    <div class="unidad" id="unidad3">
+      <h3>Unidad 3. Diseño Instruccional Gamificado (ADDIE) y Proyecto Final</h3>
+      <p>
+        En esta unidad integrarás todos los elementos trabajados para crear una estrategia gamificada
+        completa orientada al desarrollo socioemocional, utilizando el modelo ADDIE como guía.
+      </p>
+
+      <p><strong>Aprendizajes clave</strong></p>
+      <ul>
+        <li>Aplicar el modelo ADDIE en un contexto digital.</li>
+        <li>Diseñar objetos de aprendizaje gamificados centrados en el usuario y accesibles.</li>
+        <li>Implementar y evaluar una estrategia gamificada en un EVA.</li>
+      </ul>
+
+      <p><strong>Proyecto final</strong></p>
+      <ul>
+        <li>Estrategia gamificada SEL publicada en una plataforma virtual.</li>
+        <li>Documento o video explicativo con enlaces a recursos, narrativa y sistema de retroalimentación.</li>
+      </ul>
+
+      <p>
+        <span class="tag">Nivel 3</span>
+        <span class="tag">ADDIE</span>
+        <span class="tag">Proyecto integrador</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- SECCIÓN: EVALUACIÓN -->
+  <section id="evaluacion">
+    <h2>Evaluación del curso</h2>
+
+    <div class="lista-compuesta">
+      <div class="card">
+        <h3>Evaluación formativa (40%)</h3>
+        <p>
+          Actividades de aplicación breve, foros, microdiseños gamificados y ejercicios de reflexión.
+          Su propósito es monitorear tu progreso, brindarte retroalimentación y fortalecer tus
+          estrategias de pensamiento.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Evaluación sumativa (60%)</h3>
+        <p>
+          Proyecto Final Gamificado con propósito SEL, desarrollado a lo largo de las 3 unidades e
+          integrado al EVA. Incluye diseño instruccional, objetos gamificados, implementación y
+          socialización.
+        </p>
+      </div>
+    </div>
+
+    <h3>Criterios generales</h3>
+    <ul>
+      <li>Coherencia pedagógica y fundamentación teórica.</li>
+      <li>Creatividad e innovación en el diseño.</li>
+      <li>Aplicación del modelo ADDIE y principios del DUA.</li>
+      <li>Pertinencia en el uso de TIC, TAC y TEP.</li>
+      <li>Claridad de instrucciones de las actividades creadas.</li>
+      <li>Participación activa y colaboración.</li>
+      <li>Calidad del proyecto final.</li>
+    </ul>
+  </section>
+
+  <!-- SECCIÓN: MOMENTOS SINCRÓNICOS Y ASINCRÓNICOS -->
+  <section id="momentos">
+    <h2>Sesiones síncronas y trabajo autónomo</h2>
+
+    <h3>Momentos síncronos (en línea)</h3>
+    <ul>
+      <li>Sesión 1: Apertura del curso.</li>
+      <li>Sesión 2: Taller práctico de diseño gamificado.</li>
+      <li>Sesión 3: Retroalimentación del proyecto final.</li>
+      <li>Sesión 4: Socialización de estrategias gamificadas.</li>
+    </ul>
+
+    <h3>Trabajo asíncrono</h3>
+    <ul>
+      <li>Lecturas digitales y análisis de materiales.</li>
+      <li>Actividades de diseño en plataformas como Genially, Canva, ClassDojo y Kahoot.</li>
+      <li>Participación en foros de discusión.</li>
+      <li>Desarrollo gradual del proyecto final.</li>
+    </ul>
+  </section>
+
+  <!-- SECCIÓN: PARTICIPACIÓN Y ACOMPAÑAMIENTO -->
+  <section id="participacion">
+    <h2>Participación, acompañamiento y aprobación</h2>
+
+    <h3>Acompañamiento docente</h3>
+    <ul>
+      <li>Retroalimentación continua a través de la plataforma.</li>
+      <li>Espacio de tutoría semanal (asincrónica o programada).</li>
+      <li>Seguimiento a tus avances en actividades y proyecto final.</li>
+    </ul>
+
+    <h3>Criterios de participación</h3>
+    <ul>
+      <li>Realizar al menos el 80% de las actividades del curso.</li>
+      <li>Entregar el proyecto final completo.</li>
+      <li>Participar activamente en foros y socializaciones.</li>
+      <li>Demostrar avances en diseño, uso de herramientas digitales y reflexión pedagógica.</li>
+    </ul>
+
+    <p>
+      Este curso está pensado para que aprendas <strong>haciendo, reflexionando y creando</strong>,
+      mientras construyes experiencias gamificadas con sentido para tus estudiantes.
+    </p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Curso: Gamificación y Competencias Socioemocionales en Entornos Virtuales.</p>
+    <p>Universidad Santo Tomás – Maestría en Ambientes Bilingües de Aprendizaje.</p>
+  </footer>
+
+</body>
+</html>
